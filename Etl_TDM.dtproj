@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-FQTCBO1</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAasdDhmfgOkukSrqyuzE+kwAAAAACAAAAAAAQZgAAAAEAACAAAABhSim3vylhn7pBsuPMZdjzww/DvPTJS0SeT5i7edzd/wAAAAAOgAAAAAIAACAAAABhmB9vPwsj/++VtyvHeC1QDBpSVPe4NGk2oADQcSQNPJAAAAAcv6mIgHhUTRR3XD7CSGsGtIJhyEz7RstvKPPAIJkPke8DdQSQAoVKWIpPLB1PkvOL4+mmeG7yxqJ3COFYpXEkTkzXxvX7kIrl/Za/2gIWCC48KBeNg36cv7LyKW1/Tsk3Vp8PAMY0UOe88b7HiqKbpF4So5fRA2O1NhCACGuhQZcRUIf/DCjxZsjirgzbEfZAAAAAMpnwyRmscX3UzYsMtHW/1GgqduUHnJ0MVSMxCxkrSkG/hx+n6L6DG6y/S/rB8CqIGXSxLQu9hF+iVfztOYqMOA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAasdDhmfgOkukSrqyuzE+kwAAAAACAAAAAAAQZgAAAAEAACAAAADPf9zIONtNyXY9XVykEfXz3uB6KuCZoWkABioxcQN6mQAAAAAOgAAAAAIAACAAAADha6ZmRM5GzImyW8E95Hqrk8/d98K75adbinuoenYZv5AAAABJ1h0Dyswroe9dpBelrQsOaAi0HyhwvdfVGkJ+LkWkLeblg8xFevTvA96WRpHSWV8BgYqE1/tU6ivQ+UqEgwjhIbkL4jpf2/Aaa2HnqRzadgD82bnXgag0VFNoaC4ihTpCNqPJK0Bpu/dOC3Qvs2JKMzCeae/70d6JxnpCoCGoyQdDj7XuHPCinYv+HG9N4BtAAAAA5Pc36Kff7txw87NupIlBsKeNYCBjjseBDVzigt9ycFKEhUHe2Y69ISh0TFUL/gANypwfbHWMPO2bIxuAsFZj5g==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">222</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">223</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{53E9BD72-8148-4504-9289-6A5703670382}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0491864A-8481-4256-948D-9DD524AC6AFF}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -654,7 +654,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=172.28.4.27;User ID=trafico;Initial Catalog=TraficoVehicular;Provider=SQLNCLI11.1;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-FQTCBO1;Initial Catalog=TDM;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -684,7 +684,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">TraficoVehicular</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">TDM</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -728,7 +728,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">172.28.4.27</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">DESKTOP-FQTCBO1</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -743,7 +743,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">trafico</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
